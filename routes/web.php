@@ -32,6 +32,12 @@ Route::get('/contact', function () {
 Route::get('/book-table', function () {
     return view('booktable-page');
 })->name('booktable-page');
-Route::get('/admindashboard', function () {
+Route::get('/frontdesk-dashboard', function () {
+    return view('frontdesk-dashboard');
+})->name('frontdesk-dashboard');
+Route::get('/admin-dashboard', function () {
     return view('admin-dashboard');
-})->name('/admin-dashboard');
+})->name('admin-dashboard');
+Route::get('/delivery-dashboard', function () {
+    return view('delivery-dashboard');
+})->name('delivery-dashboard');

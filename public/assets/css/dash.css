@@ -29,14 +29,13 @@
             --info-blue: #3b82f6;
         /* Side icon for mobile sidebar toggle */
         .sideicon {
-            width: 40px;
+            width: 2rem;
             height: 40px;
-            background: var(--accent-red);
-            border-radius: 50%;
+            background: var(--text-gray);
             display: none; /* Hidden by default, shown on mobile */
             position: absolute;
-            top: 18px;
-            left: 18px;
+            top: 10px;
+            left: 10px;
             z-index: 3000;
             align-items: center;
             justify-content: center;
@@ -45,9 +44,10 @@
         }
         .sideicon i {
             color: #fff;
-            font-size: 1.7rem;
+            font-size: 1rem;
             margin: auto;
             display: block;
+            
         }
         @media (max-width: 900px) {
             .sideicon {
