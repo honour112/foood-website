@@ -40,6 +40,7 @@ Route::get('/book-table', function () {
     return view('booktable-page');
 })->name('booktable-page');
 
+
 Route::get('/admindashboard', function () {
     return view('admin-dashboard');
 })->name('/admin-dashboard');
@@ -92,3 +93,76 @@ Route::get('/deli-report', function () {
 Route::get('/deli-dark', function () {
     return view('deli-dark');
 })->name('deli-dark');
+
+Route::get('/admin-dashboard', function () {
+    return view('admin-dashboard');
+})->name('/admin-dashboard');
+Route::get('/admindashboard', function () {
+    return view('admindashboard');
+})->name('admindashboard');
+Route::get('/dash', function () {
+    return view('dash');
+})->name('/dash');
+
+Route::get('/analytics', function () {
+    return view('admin-view.analytics');
+})->name('analytics');
+
+Route::get('/report', function () {
+    return view('admin-view.report');
+})->name('/report');
+Route::get('/update', function () {
+    return view('admin-view.update');
+})->name('update');
+Route::get('/usermanagement', function () {
+    return view('admin-view.usermanagement');
+})->name('usermanagement');
+
+
+
+
+
+
+Route::get('/frontdesk-dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
+
+Route::get('/admin-dashboard', function () {
+    return view('admin-dashboard');
+})->name('admin-dashboard');
+
+Route::get('/delivery-dashboard', function () {
+    return view('delivery-dashboard');
+})->name('delivery-dashboard');
+
+/** Front Desk Routes */
+
+Route::get('/manage-orders', function () {
+    return view('frontdeskviews.manageorders');
+})->name('manage-orders');
+
+Route::get('/manage-bookings', function () {
+    return view('frontdeskviews.managebookings');
+})->name('manage-bookings');
+
+Route::get('/reviews', function () {
+    return view('frontdeskviews.reviews');
+})->name('reviews');
+
+Route::get('/sign-out', function () {
+    return view('frontdeskviews.signout');
+})->name('signout');
+
+Route::get('/assign-delivery', function () {
+    return view('frontdeskviews.assigndelivery');
+})->name('assign-delivery');
+
+Route::get('/test', function(){
+    return view('test');
+});
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
+
+
+

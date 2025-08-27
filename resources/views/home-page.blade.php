@@ -64,7 +64,7 @@
           <a href="{{ route('booktable-page') }}">Book A Table</a>
         </div>
         <div class="explore-menu">
-          <a href="./menu.html">Explore Menu</a>
+          <a href="{{ route('menu-page') }}">Explore Menu</a>
         </div>
       </div>
     </div>
@@ -80,7 +80,7 @@
       </div>
       <h3>Breakfast</h3>
       <p>In the new era of technology we look in the future with certainty and pride for our life.</p>
-      <a href="#" class="explore-link">Explore Menu</a>
+      <a href="{{ route('menu-page') }}"class="explore-link">Explore Menu</a>
     </div>
     <div class="menu-card">
       <div class="menu-icon">
@@ -126,7 +126,7 @@
       <b>happytummy@restaurant.com</b><br>
       <b>837 W. Marshall Lane Marshalltown, IA 50158, Los Angeles</b>
     </p>
-    <a href="#" class="about-btn">More About Us</a>
+    <a href="{{ route('about-page') }}" class="about-btn">More About Us</a>
   </div>
 </div>
 <!-- Healthy food section ends -->
@@ -213,8 +213,6 @@
     </div>
   </div>
 </section>
-<div class="testimonial-footer">
-  <p>Thank you for your feedback!</p>       
 </div>
 <!-- Testimonial Section End -->
 
