@@ -109,6 +109,7 @@
     <!-- Left: Logo & Description -->
     <div class="footer-brand">
       <div class="footer-logo-row">
+        <img src="/assets/images/japanese-food (2).png" alt="Bistro Bliss Logo" class="footer-logo" />
   <img src="/assets/images/japanese-food (2).png" alt="Bistro Bliss Logo" class="footer-logo" />
         <span class="footer-brand-name">Bistro Bliss</span>
       </div>
@@ -118,6 +119,10 @@
         for our company and.
       </p>
       <div class="footer-socials">
+        <a href="#"><img src="/assets/images/1 (1).png" alt="Twitter" /></a>
+        <a href="#"><img src="/assets/images/2.png" alt="Facebook" /></a>
+        <a href="#"><img src="/assets/images/3.png" alt="Instagram" /></a>
+        <a href="#"><img src="/assets/images/4.png" alt="GitHub" /></a>
   <a href="#"><img src="/assets/images/1 (1).png" alt="Twitter" /></a>
   <a href="#"><img src="/assets/images/2.png" alt="Facebook" /></a>
   <a href="#"><img src="/assets/images/3.png" alt="Instagram" /></a>
@@ -155,6 +160,10 @@
     <div class="footer-instagram">
       <h4>Follow Us On Instagram</h4>
       <div class="footer-insta-grid">
+        <img src="assets/images/Mask group.png" alt="egg" />
+        <img src="assets/images/Mask group (2).png" alt="fries" />
+        <img src="assets/images/Mask group (4).png" alt="potato" />
+        <img src="assets/images/pexels-ash-376464 1.png" alt="pie" />
   <img src="assets/images/Mask group.png" alt="egg" />
   <img src="assets/images/Mask group (2).png" alt="fries" />
   <img src="assets/images/Mask group (4).png" alt="potato" />

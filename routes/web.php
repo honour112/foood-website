@@ -12,6 +12,9 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('/test-links', function () {
+    return view('test-links');
+});
 
 Route::get('/', function () {
     return view('home-page');
@@ -36,6 +39,60 @@ Route::get('/contact', function () {
 Route::get('/book-table', function () {
     return view('booktable-page');
 })->name('booktable-page');
+
+
+Route::get('/admindashboard', function () {
+    return view('admin-dashboard');
+})->name('/admin-dashboard');
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
+
+Route::get('/test-links', function () {
+    return view('test-links');
+});
+
+// Route::get('/delivery-dashboard', function () {
+//    return view('delivery-dashboard');
+// })->name('delivery-dashboard');
+
+
+Route::get('/test', function () {
+    return view('test');
+})->name('test');
+
+Route::get('/deli-details', function () {
+    return view('deli-details');
+})->name('deli-details');
+
+Route::get('/notification', function () {
+    return view('notification');
+})->name('notification');
+
+Route::get('/deli-help', function () {
+    return view('deli-help');
+})->name('deli-help');
+
+Route::get('/deli-web', function () {
+    return view('deli-web');
+})->name('deli-web');
+
+Route::get('/deli-logout', function () {
+    return view('deli-logout');
+})->name('deli-logout');
+
+Route::get('/deli-map', function () {
+    return view('deli-map');
+})->name('deli-map');
+
+Route::get('/deli-report', function () {
+    return view('deli-report');
+})->name('deli-report');
+
+Route::get('/deli-dark', function () {
+    return view('deli-dark');
+})->name('deli-dark');
 
 Route::get('/admin-dashboard', function () {
     return view('admin-dashboard');
@@ -106,5 +163,6 @@ Route::get('/test', function(){
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
 
 
