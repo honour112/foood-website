@@ -87,30 +87,6 @@
             </div>
         </aside>
 
-        <!-- Main Content -->
-        <main class="main-content">
-            <!-- Header -->
-            <header class="header">
-                <div class="header-left">
-                    <h1>front desk dash board</h1>
-                    <p>Bistro bliss restaurant</p>
-                </div>
-                <div class="header-actions">
-                    <button class="btn btn-outline">
-                        <i class="fas fa-sync-alt"></i>
-                        Refresh
-                    </button>
-                    <button class="btn btn-outline">
-                        <i class="fas fa-download"></i>
-                        Export
-                    </button>
-                    <button class="btn btn-primary">
-                        <i class="fas fa-file-alt"></i>
-                        Generate Report
-                    </button>
-                </div>
-            </header>
-
             <!-- Stats Grid -->
             <div class="stats-grid">
                 <div class="stat-card">

@@ -73,11 +73,12 @@
         .dashboard-layout {
             display: flex;
             min-height: 100vh;
+            margin-left: 10%;
         }
 
         /* ===== SIDEBAR STYLES ===== */
         .sidebar {
-            width: 304px;
+            width: 310rem;
             background: var(--bg-white);
             border-right: 1px solid var(--border-light);
             display: flex;
@@ -88,6 +89,7 @@
             top: 0;
             z-index: 1000;
             box-shadow: var(--shadow-md);
+            
         }
 
         .logo-section {
@@ -95,13 +97,12 @@
             border-bottom: 1px solid var(--border-light);
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 1rem;
         }
 
-        .logo-icon {
+        .logo-img {
             width: 45px;
             height: 43px;
-            background: var(--primary-red);
             border-radius: 8px;
             display: flex;
             align-items: center;
@@ -110,11 +111,13 @@
         }
 
         .logo-text {
-            font-family: 'PT Serif', serif;
+            font-family: 'Poppins', sans-serif;
             font-style: italic;
             font-weight: bold;
-            font-size: 25px;
+            font-size: 1.2rem;
             color: var(--text-dark);
+            
+            
         }
 
         .user-profile {
@@ -361,7 +364,8 @@
         /* ===== STATS CARDS ===== */
         .stats-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+           /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));*/
+            grid-template-columns: repeat(4, 1fr);
             gap: 24px;
             margin-bottom: 32px;
         }
@@ -450,9 +454,13 @@
         /* ===== CONTENT SECTIONS ===== */
         .content-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 32px;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
             margin-bottom: 32px;
+            justify-content: center;
+            margin: 0 auto;
+            max-width: 1200px;
+            padding: 0 10px;
         }
 
         .section-card {
@@ -460,6 +468,10 @@
             border-radius: 12px;
             border: 1px solid var(--border-light);
             box-shadow: var(--shadow-sm);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 20px;
             overflow: hidden;
             transition: all 0.3s ease;
         }
