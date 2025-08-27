@@ -1,3 +1,4 @@
+
 <!-- Hamburger icon for mobile sidebar toggle -->
     <div class="sideicon" id="sidebarToggle" tabindex="0" aria-label="Open sidebar" role="button">
         <i class="fas fa-angle-right"></i>

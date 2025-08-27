@@ -37,6 +37,35 @@ Route::get('/book-table', function () {
     return view('booktable-page');
 })->name('booktable-page');
 
+Route::get('/admin-dashboard', function () {
+    return view('admin-dashboard');
+})->name('/admin-dashboard');
+Route::get('/admindashboard', function () {
+    return view('admindashboard');
+})->name('admindashboard');
+Route::get('/dash', function () {
+    return view('dash');
+})->name('/dash');
+
+Route::get('/analytics', function () {
+    return view('admin-view.analytics');
+})->name('analytics');
+
+Route::get('/report', function () {
+    return view('admin-view.report');
+})->name('/report');
+Route::get('/update', function () {
+    return view('admin-view.update');
+})->name('update');
+Route::get('/usermanagement', function () {
+    return view('admin-view.usermanagement');
+})->name('usermanagement');
+
+
+
+
+
+
 Route::get('/frontdesk-dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
@@ -77,4 +106,5 @@ Route::get('/test', function(){
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
 
