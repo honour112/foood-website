@@ -71,7 +71,7 @@
   </div>
 </div>
 <!-- Healthy food section ends -->
-<!--new section starts-->
+<!--new section starts-->X
 <!-- Hero Banner Section -->
 <section class="hero-banner">
   <div class="hero-banner-bg"></div>
