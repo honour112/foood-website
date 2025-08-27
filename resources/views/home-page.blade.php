@@ -61,7 +61,7 @@
       </div>
       <div class="hero-button1">
         <div class="bookable">
-          <a href="./booktable.html">Book A Table</a>
+          <a href="{{ route('booktable-page') }}">Book A Table</a>
         </div>
         <div class="explore-menu">
           <a href="./menu.html">Explore Menu</a>
