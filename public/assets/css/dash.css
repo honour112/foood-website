@@ -29,14 +29,13 @@
             --info-blue: #3b82f6;
         /* Side icon for mobile sidebar toggle */
         .sideicon {
-            width: 40px;
+            width: 2rem;
             height: 40px;
-            background: var(--accent-red);
-            border-radius: 50%;
+            background: var(--text-gray);
             display: none; /* Hidden by default, shown on mobile */
             position: absolute;
-            top: 18px;
-            left: 18px;
+            top: 10px;
+            left: 10px;
             z-index: 3000;
             align-items: center;
             justify-content: center;
@@ -45,9 +44,10 @@
         }
         .sideicon i {
             color: #fff;
-            font-size: 1.7rem;
+            font-size: 1rem;
             margin: auto;
             display: block;
+            
         }
         @media (max-width: 900px) {
             .sideicon {
@@ -68,6 +68,10 @@
             color: var(--text-dark);
             line-height: 1.6;
             overflow-x: hidden;
+        }
+
+        * {
+            font-family: 'Poppins', sans-serif !important;
         }
 
         .dashboard-layout {
@@ -99,6 +103,7 @@
             align-items: center;
             gap: 1rem;
         }
+
 
         .logo-img {
             width: 45px;
@@ -246,6 +251,11 @@
         @keyframes pulse {
             0%, 100% { opacity: 1; }
             50% { opacity: 0.7; }
+        }
+        .sidebar {
+            overflow-y: auto;
+            scrollbar-width: thin;
+            scrollbar-color: #c52238 #f8f9fa;
         }
 
         .sidebar-footer {
@@ -481,7 +491,7 @@
         }
 
         .section-title {
-            font-family: 'Rufina', serif;
+            font-family: 'Poppins', sans-serif !important;
             font-size: 28px;
             font-weight: 400;
             color: var(--text-dark);
@@ -517,7 +527,7 @@
         }
 
         .order-details h4 {
-            font-family: 'Rufina', serif;
+            font-family: 'Poppins', sans-serif !important;
             font-size: 20px;
             font-weight: 400;
             color: var(--text-dark);
@@ -525,7 +535,7 @@
         }
 
         .order-details p {
-            font-family: 'Rufina', serif;
+            font-family: 'Poppins', sans-serif !important;
             font-size: 16px;
             color: var(--text-gray);
         }
@@ -616,7 +626,7 @@
         }
 
         .agent-name {
-            font-family: 'Rufina', serif;
+            font-family: 'Poppins', sans-serif !important;
             font-size: 18px;
             font-weight: 400;
             color: var(--text-dark);
@@ -626,7 +636,7 @@
             display: flex;
             align-items: center;
             gap: 8px;
-            font-family: 'Rufina', serif;
+            font-family: 'Poppins', sans-serif !important;
             font-size: 16px;
             color: var(--success-green);
             font-weight: 500;
@@ -655,7 +665,7 @@
         }
 
         .reviews-header {
-            font-family: 'Radio Canada', sans-serif;
+            font-family: 'Poppins', sans-serif !important;
             font-size: 24px;
             font-weight: 400;
             color: var(--text-dark);
@@ -697,11 +707,16 @@
             align-items: center;
             justify-content: center;
             color: white;
-            font-family: 'Sansation', sans-serif;
+            font-family: 'Poppins', sans-serif !important;
             font-size: 18px;
             font-weight: 700;
             box-shadow: var(--shadow-red);
             flex-shrink: 0;
+        }
+              
+        i[class^="fa"], i[class*=" fa"] {
+            font-family: 'Font Awesome 6 Free', 'Font Awesome 6 Brands', 'FontAwesome', sans-serif !important;
+            font-weight: 900 !important;
         }
 
         .review-text {
@@ -709,14 +724,14 @@
         }
 
         .review-text h4 {
-            font-family: 'Sansation', sans-serif;
+            font-family: 'Poppins', sans-serif !important;
             font-size: 18px;
             color: var(--text-dark);
             margin-bottom: 8px;
         }
 
         .review-text p {
-            font-family: 'Sansation', sans-serif;
+            font-family: 'Poppins', sans-serif !important;
             font-size: 14px;
             color: var(--text-gray);
             line-height: 1.6;
@@ -731,7 +746,7 @@
             padding: 10px 24px;
             border: none;
             border-radius: 8px;
-            font-family: 'Racing Sans One', cursive;
+            font-family: 'Poppins', sans-serif !important;
             font-size: 16px;
             cursor: pointer;
             text-decoration: none;
@@ -751,7 +766,7 @@
             border: 1px solid var(--border-light);
             box-shadow: var(--shadow-sm);
             padding: 32px 24px;
-            margin-left: 32px;
+            
         }
 
         .booked-tables-title {
@@ -765,7 +780,7 @@
 
     /* booked tables */
                 .static-calendar {
-                    max-width: 500px;
+                   
                     margin: 30px auto;
                     background: #fff;
                     border-radius: 12px;
@@ -784,14 +799,16 @@
                 }
                 .calendar-grid {
                     display: flex;
-                    gap: 18px;
+                    gap: 10rem;
                     justify-content: center;
+                    
+                  
                 }
                 .calendar-day {
-                    background: #f7f9fc;
+                    background:var(--bg-light);
                     border-radius: 8px;
                     padding: 14px 10px;
-                    min-width: 120px;
+                    min-width: 12rem;
                     box-shadow: 0 2px 8px rgba(0,0,0,0.04);
                     display: flex;
                     flex-direction: column;
